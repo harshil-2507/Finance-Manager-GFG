@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-gray-50 text-gray-800 font-roboto">
+    <div className="font-roboto">
       {/* Navbar */}
-      <section className="bg-white shadow-md flex items-center justify-between py-4 px-8 sticky top-0 z-50">
+      <section className=" shadow-md flex items-center justify-between py-4 px-8 sticky top-0 z-50">
         navbar
       </section>
 
       {/* Hero Section */}
-      <section className="bg-hero-pattern bg-cover bg-center text-white flex flex-col items-center justify-center py-24 px-6">
+      <section className="bg-hero-pattern bg-cover bg-center  flex flex-col items-center justify-center py-24 px-6">
         <div className="hero-section">
           <div className="video">
             <video autoPlay muted loop id="background-video">
@@ -30,11 +30,11 @@ export default function Home() {
       </section>
 
       {/* Offerings */}
-      <section className="bg-gradient-to-br from-gray-100 to-white py-16 px-10 space-y-6" id="Offerings">
+      <section className=" py-16 px-10 space-y-6" id="Offerings">
         <div className="parallax-offerings">
           <div className="parallax-offering-content">
-            <h2 className="faltu1 text-4xl font-semibold text-center text-gray-800">Review Our Financial Offerings</h2>
-            <p className="faltu2 text-center text-gray-600 mb-8">Discover how we can help you reach new financial heights.</p>
+            <h2 className="faltu1 text-4xl font-semibold text-center ">Review Our Financial Offerings</h2>
+            <p className="faltu2 text-centermb-8">Discover how we can help you reach new financial heights.</p>
             {/* Services Section */}
             <div className="containerr space-y-8 flex justify-center  ">
               <div data-text="Financial Health Quiz" className="glass p-6 rounded-lg shadow-lg">
@@ -53,8 +53,8 @@ export default function Home() {
 
 
       {/* About Us */}
-      <section className="bg-white py-16 px-10">
-        <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
+      <section className=" py-16 px-10">
+        <h2 className="text-3xl font-bold text-center mb-8 ">
           About Us
         </h2>
 
@@ -73,15 +73,15 @@ export default function Home() {
       </section>
 
       {/* Feedback */}
-      <section className="bg-gray-100 py-16 px-10">
-        <h2 className="text-3xl font-bold text-center mb-8 text-gray-900">
+      <section className=" py-16 px-10">
+        <h2 className="text-3xl font-bold text-center mb-8 ">
           Feedback
         </h2>
         {/* Feedback content */}
       </section>
 
       {/* Footer */}
-      <section className="bg-gray-800 text-white py-8 px-10">
+      <section className=" py-8 px-10">
         <div className="text-center text-sm">footer</div>
       </section>
     </div>
